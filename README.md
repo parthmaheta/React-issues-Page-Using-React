@@ -12,7 +12,7 @@ Then Run
 
 ###`npm start` to view in browser
 
-Thanks Parth Maheta...
+Thanks Parth Maheta.
 
 # Getting Started with Create React App
 
