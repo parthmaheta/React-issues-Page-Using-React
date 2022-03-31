@@ -72,3 +72,11 @@
 .issue-row .second-column > span {
   margin-left: 0.3rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .issue-row .first-column,
+  .issue-row .second-column {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

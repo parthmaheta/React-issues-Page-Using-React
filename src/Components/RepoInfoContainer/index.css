@@ -32,6 +32,12 @@
   padding: 0.5rem;
 }
 
+@media only screen and (max-width: 560px) {
+  .buttonbar-container {
+    display: none;
+  }
+}
+
 .nav-tabs {
   display: flex;
   flex-direction: row;
