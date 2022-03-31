@@ -12,13 +12,17 @@ Then Run
 
 ###`npm start` to view in browser
 
-Thanks Parth Maheta...
+Thanks Parth Maheta.
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+Run This Once To Get All Dependecies
+
+### `npm install`
 
 In the project directory, you can run:
 
