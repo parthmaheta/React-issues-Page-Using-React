@@ -1,0 +1,74 @@
+.issue-container {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.issue-table-head {
+  background-color: #fafbfc;
+  border: 2px solid #e1e4e8;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.issue-table-head .second-column {
+  color: rgba(00, 00, 00, 0.7);
+}
+
+.issue-table-head .second-column div {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+}
+.second-column div:hover {
+  color: rgba(00, 00, 00, 1);
+}
+.second-column div span {
+  margin-left: 0.5rem;
+}
+
+.issue-table-head-groud {
+  margin-left: 1rem;
+  display: flex;
+
+  align-items: center;
+}
+
+.issue-table-head-groud > * {
+  margin: 0.5rem;
+}
+
+.issue-row {
+  border: 1px solid #e1e4e8;
+}
+.issue-row:hover {
+  background-color: #f0f2f5;
+}
+
+.issue-row .first-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.issue-row .label {
+  padding: 0.2rem 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  margin-left: 1rem;
+}
+
+.issue-row .second-column {
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.issue-row .second-column > span {
+  margin-left: 0.3rem;
+}

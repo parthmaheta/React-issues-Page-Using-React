@@ -1,0 +1,54 @@
+.container {
+  background-color: #fafbfc;
+  padding: 1rem 3rem 0rem;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonbar-container > div {
+  display: inline-block;
+}
+
+.button-bar {
+  margin-left: 0.8rem;
+  font-size: 1rem;
+  border: 0.4px solid #e1e4e8;
+}
+
+.button-bar .button-1 {
+  background-color: #fafbfc;
+  padding: 0.5rem;
+}
+.button-bar .button-1:hover {
+  background-color: #f0f2f5;
+}
+.button-bar .button-2 {
+  border-left: 1px solid #e1e4e8;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.nav-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  color: rgba(00, 00, 00, 0.7);
+}
+
+.nav-tabs div {
+  margin: 0.5rem 0.5rem 0rem;
+  padding: 0.5rem;
+}
+.nav-tabs div:hover {
+  color: rgba(00, 00, 00, 1);
+}
+.nav-tabs .active {
+  border-top: 2px solid orangered;
+  background-color: #ffff;
+  color: rgba(00, 00, 00, 1);
+}

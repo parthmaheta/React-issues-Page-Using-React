@@ -1,0 +1,17 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  margin: 1rem 0.3rem;
+  border-radius: 5px;
+}
+.pagination button.active {
+  background-color: rgb(31, 111, 235);
+  color: white;
+}
